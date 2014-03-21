@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+NODE_ENV=test $CMD $files
+
+CMD="./node_modules/mocha/bin/mocha -R list -r should -u bdd -t 10000"
+
+test "$#" -gt "0" && files=$@ || files=$(find components -name '*.test.*' | grep -v '.swp$')
+
+echo $files | NODE_ENV=test SKIP_TEST_EXPRESS=true xargs -n1 $CMD

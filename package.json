@@ -35,6 +35,7 @@
         "grunt-contrib-uglify": "latest"
     },
     "scripts": {
-        "lock": "scripts/module_lock.js"
+        "lock": "scripts/module_lock.js",
+        "test": "scripts/test"
     }
 }
