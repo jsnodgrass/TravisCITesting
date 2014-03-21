@@ -22,7 +22,8 @@
         "nib": "1.0.1",
         "async": "0.2.9",
         "underscore": "1.5.2",
-        "newrelic": "latest"
+        "newrelic": "latest",
+        "supertest": "latest"
     },
     "devDependencies": {
         "mocha": "latest",
