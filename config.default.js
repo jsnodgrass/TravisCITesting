@@ -16,6 +16,7 @@ module.exports = {
     auth: "",
     debug: false
   },
+  redistogo_url: 'redis://redistogo:53ffc1b9724474b3779bab3457544786@pearlfish.redistogo.com:10013/',
   mongoose_url: "mongodb://localhost/base12",
   send_mail: true,
   contact_email: "jim@skookum.com",
